@@ -10,6 +10,6 @@ console.log(`O nome do cliente é ${cliente["nome"]} e essa pessoa tem ${cliente
 const chaves = ["nome", "idade", "cpf", "email"];
 
 chaves.forEach((chave) =>{
-    console.log(`A chave ${chave} tem valor`);
+    console.log(`A chave ${chave} tem valor ${cliente[chave]}`);
 });
    
